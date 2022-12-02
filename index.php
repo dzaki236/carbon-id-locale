@@ -5,6 +5,6 @@ $date = Carbon::parse(date('Y-m-d'))->locale('id');
 
 $date->settings(['formatFunction' => 'translatedFormat']);
 
-echo $date->format('l, j F Y ;')."\n"; // Tgl sekarang
+echo $date->format('l, j F Y')."\n"; // Tgl sekarang
 
 ?>
